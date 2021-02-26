@@ -19,10 +19,6 @@ img{
   display: inline-block;
 }
 
-.menu li a{
-  text-transform: uppercase;
-}
-
 a{
   text-decoration: none;
 }
@@ -64,6 +60,10 @@ h3{
   font-size: 20px;
 }
 
+.download-btn img{
+  border: 1px solid white;
+  border-radius: 5px;
+}
 /* FINE COMMON */
 
 /* HEADER */
@@ -71,6 +71,7 @@ h3{
 .top-nav .logo{
   line-height: 12px;
 }
+
 .top-nav img{
   width: 50%;
   vertical-align: middle;
@@ -88,6 +89,7 @@ h3{
 .top-nav .menu li a{
   color: black;
   font-size: 12px;
+  text-transform: uppercase;
 }
 
 .menu.lang li{
@@ -133,7 +135,7 @@ h1{
 }
 
 .teaser .download-btn img{
-  width: 30%;
+  width: 240px;
 }
 /* Fine Jumbotron */
 /* FINE HEADER */
@@ -147,11 +149,19 @@ h1{
 
 .inner-col{
   padding: 20px;
-  background-color: #FAFAFA;
 }
 
 .inner-col p{
   margin: 20px 0;
+}
+
+.content-col{
+  background-color: #FAFAFA;
+  padding: 50px 0 20px 0;
+}
+
+.content-col h2{
+  padding-top:
 }
 /* Fine Sezione Servizi Offerti */
 
@@ -270,6 +280,10 @@ h1{
   padding: 65px 130px;
 }
 
+.social-hub .menu{
+  width: 115%;
+}
+
 .social-hub .menu li{
   margin-right: 27px;
   margin-top: 10px;
@@ -284,14 +298,83 @@ h1{
 /* FINE MAIN */
 
 /* FOOTER */
+footer{
+  background-color: black;
+  padding: 60px 0;
+  color: white;
+}
+
+.footer-top{
+  padding-bottom: 40px;
+}
+
+.footer-top img{
+  width: 50%;
+}
+
+.footer-top li{
+  display: block;
+  margin-top: 15px;
+}
+
+.footer-top .menu li:first-child{
+  margin-top: 25px;
+}
+
+.footer-top a{
+  color: grey;
+}
+
+.footer-bottom{
+  position: relative;
+  padding-bottom: 100px;
+}
+
+.footer-bottom .menu li{
+  margin-right: 10px;
+}
+
+.footer-bottom .menu a{
+  font-size: 20px;
+}
+
+.footer-bottom a{
+  color: white;
+  font-size: 14px;
+}
+
+.moved{
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+}
+
+.footer-bottom .download-btn img{
+  width: 150px;
+}
+
+.footer-bottom .download-btn {
+  text-align: center;
+}
+
 /* FINE FOOTER */
 
 
 
 /* SEZIONE RESPONSIVE */
 @media all and (max-width: 991px){
+  /* HEADER */
+  .teaser .download-btn img{
+    width: 50%;
+  }
+
   .how-info{
     padding-top: 200px;
+  }
+
+  /* MAIN */
+  #advs {
+    margin-top: 50px;
   }
 
   .self-promo-info{
@@ -311,5 +394,48 @@ h1{
 
   .card.find-us{
     margin-top: 20px;
+  }
+
+  .self-promotion,
+  .card,
+  .social-banner{
+    margin: 0 20px;
+  }
+
+  /* FOOTER */
+  .footer-top,
+  .footer-bottom{
+    padding: 0 20px;
+  }
+
+  .footer-top img{
+    width: 25%;
+    margin-bottom: 20px;
+  }
+
+  .footer-bottom .menu{
+    text-align: center;
+    margin: 30px 0;
+  }
+
+  .moved{
+    position: relative;
+    margin-top: 20px;
+  }
+
+  .footer-bottom .menu a{
+    font-size: 25px;
+  }
+
+  .footer-bottom .download-btn img{
+    width: 25%;
+  }
+
+  .last-link-center{
+    text-align: center;
+  }
+
+  .last-link-right{
+    text-align: right;
   }
 }
