@@ -47,13 +47,23 @@ a{
 }
 
 h2{
+  font-size: 45px;
+  font-weight: 400;
+}
+
+h3{
   font-size: 32px;
   font-weight: 500;
 }
 
-.standard-text{
+.subtitle-text{
   font-size: 25px;
 }
+
+.standard-text{
+  font-size: 20px;
+}
+
 /* FINE COMMON */
 
 /* HEADER */
@@ -108,7 +118,7 @@ h2{
   width: 50%;
 }
 
-.teaser h1{
+h1{
   font-size: 50px;
   font-weight: 500;
 }
@@ -173,8 +183,80 @@ h2{
 .thin{
   font-size: 12px;
 }
-
-
-
 /*  Fine Sezione How it works */
+
+/* Sezione ADVs */
+#advs{
+  margin: 170px 0 40px 0;
+}
+
+.self-promotion{
+  background-image: url("../img/ScooterHelbiz-2400.jpg");
+  height: 500px;
+  background-size: cover;
+  position: relative;
+  color: white;
+}
+
+.self-promo-info{
+  position: absolute;
+  top: 30%;
+  right: 5%;
+  width: 30%;
+}
+
+.self-promo-info .standard-text,
+.self-promo-info a{
+  position: relative;
+  right: 30px;
+}
+
+#advs a{
+  color: white;
+}
+
+.self-promo-info .standard-text{
+  margin: 20px 0;
+}
+
+.second-row{
+  margin-top: 30px;
+}
+
+.card{
+  padding-top: 20px;
+  height: 450px;
+  color: white;
+}
+
+.card.app{
+  background-color: lightblue;
+  padding-top: 20px;
+  overflow: hidden;
+  height: 450px;
+  color: white;
+}
+
+.inner-col-left{
+  padding-right: 15px;
+  width: 100%;
+}
+
+.inner-col-right{
+  padding-left: 15px;
+  width: 100%;
+}
+
+[class*="inner-col-"] p{
+  margin: 20px 0;
+}
+
+.card.find-us{
+  background-image: url("../img/cities-1500.jpg");
+  background-size: cover;
+}
+
+
+
+/* Fine Sezione ADVs */
 /* FINE MAIN */
