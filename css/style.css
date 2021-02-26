@@ -35,6 +35,10 @@ a{
   text-align: center;
 }
 
+.ta-left{
+  text-align: left;
+}
+
 .centered{
   position: absolute;
   top: 50%;
@@ -139,7 +143,38 @@ h2{
 .inner-col p{
   margin: 20px 0;
 }
-
 /* Fine Sezione Servizi Offerti */
 
+/*  Sezione How it works */
+.banner{
+  height: 420px;
+  background-image: url("../img/HelbizBanner.jpg");
+  background-size: cover;
+}
+
+.banner img{
+  width: 20%;
+  display: block;
+  margin: auto;
+  position: relative;
+  top: 150px;
+}
+
+.how-info{
+  padding-top: 80px;
+}
+
+.info-first,
+.info-second{
+  width: 40%;
+  margin: 0 auto;
+}
+
+.thin{
+  font-size: 12px;
+}
+
+
+
+/*  Fine Sezione How it works */
 /* FINE MAIN */
