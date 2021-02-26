@@ -1,0 +1,105 @@
+/* COMMON */
+body{
+  font-family: 'Roboto', sans-serif;
+}
+.small-wrapper{
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.menu{
+  list-style-type: none;
+}
+
+.menu li{
+  display: inline-block;
+}
+
+.menu li a{
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.ta-right{
+  text-align: right;
+}
+
+.ta-center{
+  text-align: center;
+}
+
+.centered{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* FINE COMMON */
+
+/* HEADER */
+/* Top-Nav */
+.top-nav .logo{
+  line-height: 12px;
+}
+.top-nav img{
+  width: 50%;
+  vertical-align: middle;
+}
+
+.top-nav{
+  padding: 30px 20px 20px 20px;
+}
+
+.top-nav .menu li{
+  margin-right: 10px;
+  line-height: 12px;
+}
+
+.top-nav .menu li a{
+  color: black;
+  font-size: 12px;
+}
+
+.menu.lang li{
+  padding-left: 10px;
+  border-left: 1px solid black;
+}
+
+.menu.lang li:first-child{
+  border-left: none;
+}
+
+.burger{
+  font-size: 25px;
+}
+/* Fine Top-Nav */
+
+/* Jumbotron */
+
+.jumbotron{
+  height: 550px;
+  background-image: url("../img/hero-bg.jpg");
+  background-size: cover;
+  position: relative;
+  color: white;
+}
+
+.teaser{
+  width: 50%;
+}
+
+.teaser h1{
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.teaser p{
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+.teaser .download-btn{
+  margin-top: 20px;
+}
+/* Fine Jumbotron */
+/* FINE HEADER */
