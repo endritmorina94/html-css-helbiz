@@ -163,7 +163,7 @@ h1{
 }
 
 .banner img{
-  width: 20%;
+  width: 300px;
   display: block;
   margin: auto;
   position: relative;
@@ -282,3 +282,34 @@ h1{
 
 /* Fine Sezione ADVs */
 /* FINE MAIN */
+
+/* FOOTER */
+/* FINE FOOTER */
+
+
+
+/* SEZIONE RESPONSIVE */
+@media all and (max-width: 991px){
+  .how-info{
+    padding-top: 200px;
+  }
+
+  .self-promo-info{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .inner-col-left{
+    padding-right: 0;
+  }
+
+  .inner-col-right{
+    padding-left: 0;
+  }
+
+  .card.find-us{
+    margin-top: 20px;
+  }
+}
