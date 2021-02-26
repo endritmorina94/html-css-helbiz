@@ -7,6 +7,10 @@ body{
   margin: 0 auto;
 }
 
+img{
+  width: 100%;
+}
+
 .menu{
   list-style-type: none;
 }
@@ -16,8 +20,11 @@ body{
 }
 
 .menu li a{
-  text-decoration: none;
   text-transform: uppercase;
+}
+
+a{
+  text-decoration: none;
 }
 
 .ta-right{
@@ -33,6 +40,15 @@ body{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+h2{
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.standard-text{
+  font-size: 25px;
 }
 /* FINE COMMON */
 
@@ -101,5 +117,29 @@ body{
 .teaser .download-btn{
   margin-top: 20px;
 }
+
+.teaser .download-btn img{
+  width: 30%;
+}
 /* Fine Jumbotron */
 /* FINE HEADER */
+
+/* MAIN */
+/* Sezione Servizi Offerti */
+
+#services{
+  margin: 40px 0;
+}
+
+.inner-col{
+  padding: 20px;
+  background-color: #FAFAFA;
+}
+
+.inner-col p{
+  margin: 20px 0;
+}
+
+/* Fine Sezione Servizi Offerti */
+
+/* FINE MAIN */
