@@ -44,12 +44,12 @@ a{
 
 h2{
   font-size: 45px;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 h3{
   font-size: 32px;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .subtitle-text{
@@ -191,7 +191,7 @@ h1{
 }
 /*  Fine Sezione How it works */
 
-/* SEZIONE ADVs */
+/* Sezione ADVs */
 #advs{
   margin: 170px 0 40px 0;
   color: white;
@@ -199,6 +199,10 @@ h1{
 
 #advs a{
   color: white;
+}
+
+#advs h3:not(.social-hub h3){
+  font-weight: 500;
 }
 
 .self-promotion{
