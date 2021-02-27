@@ -64,6 +64,11 @@ h3{
   border: 1px solid white;
   border-radius: 5px;
 }
+
+.jumbotron,
+#advs:not(.social-hub){
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+}
 /* FINE COMMON */
 
 /* HEADER */
@@ -169,7 +174,7 @@ h1{
 }
 
 .banner img{
-  width: 300px;
+  max-width: 300px;
   display: block;
   margin: auto;
   position: relative;
@@ -182,7 +187,7 @@ h1{
 
 .info-first,
 .info-second{
-  width: 40%;
+  max-width: 185px;
   margin: 0 auto;
 }
 
@@ -191,9 +196,14 @@ h1{
 }
 /*  Fine Sezione How it works */
 
-/* Sezione ADVs */
+/* SEZIONE ADVs */
 #advs{
   margin: 170px 0 40px 0;
+  color: white;
+}
+
+#advs a{
+  color: white;
 }
 
 .self-promotion{
@@ -201,7 +211,6 @@ h1{
   height: 500px;
   background-size: cover;
   position: relative;
-  color: white;
 }
 
 .self-promo-info{
@@ -215,7 +224,6 @@ h1{
 .self-promo-info a{
   position: relative;
   right: 30px;
-  color: white;
 }
 
 
@@ -229,20 +237,28 @@ h1{
 
 .card{
   padding-top: 20px;
-  height: 450px;
-  color: white;
+  height: 460px;
 }
 
 .card.app{
-  background-color: lightblue;
-  padding-top: 20px;
-  overflow: hidden;
-  height: 450px;
-  color: white;
+  background: linear-gradient(0deg, rgba(37,46,56,1) 0%, rgba(65,86,106,1) 100%);
+  position: relative;
 }
 
-.card a{
-  color: white;
+.get-app-info{
+  padding-bottom: 30px;
+}
+
+.get-app-img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.get-app-img img{
+  max-width: 500px;
+  vertical-align: bottom;
 }
 
 .inner-col-left{
@@ -273,6 +289,7 @@ h1{
 
 .social-hub{
   background-color: white;
+  color: black;
   padding: 65px 130px;
 }
 
@@ -285,7 +302,7 @@ h1{
   margin-top: 10px;
 }
 
-.social-hub .menu li a{
+#advs .menu li a{
   color: black;
   font-size: 30px;
 }
@@ -369,6 +386,10 @@ footer{
   }
 
   /* MAIN */
+  .info-first{
+    padding-bottom: 10px;
+  }
+
   #advs {
     margin-top: 50px;
   }
@@ -378,6 +399,15 @@ footer{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    width: auto;
+  }
+
+  .self-promo-info h2{
+    text-align: center;
+  }
+
+  .self-promo-info .standard-text, .self-promo-info a{
+    position: static;
   }
 
   .inner-col-left{
@@ -396,6 +426,11 @@ footer{
   .card,
   .social-banner{
     margin: 0 20px;
+  }
+
+  .social-hub{
+    background-color: white;
+    padding: 30px 50px;
   }
 
   /* FOOTER */
