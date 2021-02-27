@@ -60,11 +60,6 @@ h3{
   font-size: 20px;
 }
 
-.download-btn img{
-  border: 1px solid white;
-  border-radius: 5px;
-}
-
 .jumbotron,
 #advs:not(.social-hub){
   text-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
@@ -78,7 +73,7 @@ h3{
 }
 
 .top-nav img{
-  width: 50%;
+  width: 150px;
   vertical-align: middle;
 }
 
@@ -107,7 +102,7 @@ h3{
 }
 
 .burger{
-  font-size: 25px;
+  font-size: 20px;
 }
 /* Fine Top-Nav */
 
@@ -122,7 +117,7 @@ h3{
 }
 
 .teaser{
-  width: 50%;
+  width: 60%;
 }
 
 h1{
@@ -140,7 +135,7 @@ h1{
 }
 
 .teaser .download-btn img{
-  width: 240px;
+  width: 150px;
 }
 /* Fine Jumbotron */
 /* FINE HEADER */
@@ -364,12 +359,13 @@ footer{
 
 .footer-bottom .download-btn img{
   width: 150px;
+  border: 1px solid white;
+  border-radius: 5px;
 }
 
 .footer-bottom .download-btn {
   text-align: center;
 }
-
 /* FINE FOOTER */
 
 
@@ -377,9 +373,6 @@ footer{
 /* SEZIONE RESPONSIVE */
 @media all and (max-width: 991px){
   /* HEADER */
-  .teaser .download-btn img{
-    width: 50%;
-  }
 
   .how-info{
     padding-top: 200px;
@@ -440,8 +433,12 @@ footer{
   }
 
   .footer-top img{
-    width: 25%;
     margin-bottom: 20px;
+    width: 150px;
+  }
+
+  .footer-top:last-child h4{
+    margin-top: 20px;
   }
 
   .footer-bottom .menu{
@@ -459,7 +456,7 @@ footer{
   }
 
   .footer-bottom .download-btn img{
-    width: 25%;
+    width: 130px;
   }
 
   .last-link-center{
@@ -468,5 +465,12 @@ footer{
 
   .last-link-right{
     text-align: right;
+  }
+}
+
+@media screen and (max-width: 550px){
+  /* Jumbotron */
+  .teaser .download-btn img{
+    width: 125px;
   }
 }
