@@ -163,9 +163,10 @@ h1{
 
 /*  Sezione How it works */
 .banner{
-  height: 420px;
+  height: 430px;
   background-image: url("../img/HelbizBanner.jpg");
   background-size: cover;
+  background-position: center;
 }
 
 .banner img{
@@ -383,6 +384,10 @@ footer{
   }
 
   /* MAIN */
+  .banner{
+    background-position: 0% 0%;
+  }
+
   .info-first{
     padding-bottom: 10px;
   }
